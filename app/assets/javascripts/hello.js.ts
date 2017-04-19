@@ -7,7 +7,7 @@ class HelloTypeScript {
 
     bind_add_button_event() {
       $('#add').click(function() {
-        $('#hello').text("Welcome in TypeScript Again");
+        $('#hello').text("Welcome in TypeScript Again....click again.....");
       })
     }
 }
@@ -17,4 +17,3 @@ $(() => {
     hello.initial_event();
     hello.bind_add_button_event()
 });
-
